@@ -1,0 +1,40 @@
+:root{
+    background-color: black;
+    color: white;
+}
+.name{
+    position: absolute;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    
+  }
+  
+
+  .navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+  }
+  
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .disp {
+    display: flex; 
+}
+.tx{
+    font-size: 40px;
+}
+  .disp{
+    margin-top: 25vh;
+  }
+  
