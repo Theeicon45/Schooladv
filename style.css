@@ -36,5 +36,39 @@
 }
   .disp{
     margin-top: 25vh;
+    margin-left: 5%;
   }
-  
+  .box{
+    background-color: #f2f2f2;
+  }
+  .image {
+    display: inline-block;
+    margin-right: 70px; 
+}
+
+  .image img{
+    border-radius: 20px;
+    width: 400px;
+    height:300px;
+    margin-left: 100px;
+  }
+  /* Your existing CSS styles */
+
+.image-container {
+    /* Container styles */
+    position: relative; /* Make the container a positioned parent */
+}
+
+.image {
+   
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    opacity: 1; 
+    transition: opacity 0.5s ease;
+}
+
+.image.active {
+    opacity: 1; 
+}
+
