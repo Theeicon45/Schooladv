@@ -51,12 +51,13 @@
     width: 400px;
     height:300px;
     margin-left: 100px;
+    box-shadow: 10px -10px 20px rgba(255, 255, 0, 0.9);
   }
   /* Your existing CSS styles */
 
 .image-container {
-    /* Container styles */
-    position: relative; /* Make the container a positioned parent */
+    
+    position: relative; 
 }
 
 .image {
@@ -66,9 +67,20 @@
     left: 0;
     opacity: 1; 
     transition: opacity 0.5s ease;
+   
 }
 
 .image.active {
     opacity: 1; 
+}
+.btn{
+margin-left: 70px;
+margin-top: 20px;
+background-color:#ffff00e6 ;
+border: none;
+border-radius: 20px;
+width: 150px;
+height: 40px;
+
 }
 
