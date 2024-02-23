@@ -1,12 +1,16 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 :root{
     background-color: black;
     color: white;
 }
 .name{
     position: absolute;
+    margin-top: 20px;
 }
 .text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    c
 }
 .navbar {
     overflow: hidden;
@@ -34,6 +38,7 @@
 }
 .tx{
     font-size: 40px;
+    
 }
   .disp{
     margin-top: 25vh;
