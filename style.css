@@ -3,8 +3,8 @@
 }
 
 :root{
-  background-color: black;
-  color: white;
+  background-color: var(--lightGray);
+  color: black;
   
   --font: Verdana, Geneva, Tahoma, sans-serif;
   --red:#ed0a10;
@@ -12,7 +12,9 @@
   --lightGray: #d3d0d0;
   --gray: #6e7b8f;
   --slatyGray: #647c98;
+  --footergray:#b1adad;
 }
+
 
 .name{
     position: absolute;
@@ -30,7 +32,7 @@
 
   .navbar a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -41,7 +43,7 @@
   
   .navbar a:hover {
     background-color: #ddd;
-    color: black;
+    color: var(--gray);
   }
   .disp {
     display: flex; 
@@ -67,7 +69,7 @@
     width: 400px;
     height:300px;
     margin-left: 100px;
-    box-shadow: 10px -10px 20px rgba(255, 255, 0, 0.9);
+    box-shadow: 10px -10px 20px var(--black);
   }
   /* Your existing CSS styles */
 
@@ -141,7 +143,7 @@
 
 /*--------------------------------FOOTER---------------------------------------*/
 footer{
-  background-color: var(--slatyGray);
+  background-color: var(--footergray);
   font-family: var(--font);
   height: 300px;
   margin: 0;
