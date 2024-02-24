@@ -6,6 +6,7 @@
   background-color: black;
   color: white;
   --grey: #3A4042;
+  --font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .name{
@@ -128,7 +129,8 @@ cursor: pointer;
 /*--------------------------------FOOTER---------------------------------------*/
 footer{
   background-color: var(--grey);
-  height: 250px;
+  font-family: var(--font);
+  height: 300px;
   margin: 0;
   display: flex;
   justify-content: space-between;
