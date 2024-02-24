@@ -130,6 +130,7 @@ footer{
   height: 300px;
   margin: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .schl{
@@ -153,9 +154,18 @@ footer{
   font-size: 20px;
 }
 
+.foot{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
 
 .fa-solid{
   font-size: 25px;
   padding-right: 10px;
 }
 
+.details{
+  margin: 20px;
+  font-size: 21px;
+}
