@@ -97,7 +97,7 @@
 
 .btn:hover{
   cursor: pointer;
-  transform: scale(1.4);
+  transform: scale(1.1);
   background-color: yellow;
   z-index: 2;
   box-shadow: 10px -10px 20px rgb(175, 175, 10);
