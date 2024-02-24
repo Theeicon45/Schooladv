@@ -177,12 +177,13 @@ footer{
 }
 
 .details{
-  margin: 20px;
+  margin: 5px;
   font-size: 21px;
 }
 
 .details ul li{
   display: block;
+  margin-top: 5px;
   padding-left: 0px;
 
 }
