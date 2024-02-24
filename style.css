@@ -1,5 +1,6 @@
 .body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
 }
 
 :root{
@@ -21,13 +22,11 @@
     margin-top: 20px;
     font-size: 30px;
 } */
-.text{
-    font-weight: 500;
-}
+
 .navbar {
-    overflow: hidden;
-    
-  }
+  overflow: hidden;
+  width: 98vw;
+}
   
 
   .navbar a {
@@ -45,64 +44,55 @@
     background-color: #ddd;
     color: var(--gray);
   }
-  .logo img{
-    height: 80px;
-    position: absolute;
-    border-radius: 6px;
-    
-  }
+
+.logo img{
+  margin: 5px;
+  height: 80px;
+  position: absolute;
+  border-radius: 6px;
+}
   
-  .disp {
-    display: flex; 
+.container-one{
+  display: flex; 
+  justify-content: space-between;
+  width: 98vw;
+  margin-top: 0px;
+  height: 500px;
 }
+
+.container-txt{
+  margin: 50px 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
 .tx{
-    font-size: 40px;
-    
-}
-  .disp{
-    margin-top: 25vh;
-    margin-left: 5%;
-  }
-  .box{
-    background-color: #f2f2f2;
-  }
-  .image {
-    display: inline-block;
-    margin-right: 70px; 
+  font-size: 40px;  
 }
 
-  .image img{
+  .image{
+    margin: 50px 0 0 50px;
+    overflow: hidden;
+    width: 40vw;
+    height: 450px;
     border-radius: 20px;
-    border: none;
-    width: 400px;
-    height:300px;
-    margin-left: 300px;
-    margin-top: -50px;
     box-shadow: 10px -10px 20px var(--black);
-  }
-  /* Your existing CSS styles */
-
-.image-container {
-    
-    position: relative; 
-}
-
-.image {
-   
     position: absolute; 
-    top: 0; 
-    left: 0;
+    right: 200px; 
     opacity: 1; 
     transition: opacity 0.5s ease;
    
-}
+  }
+
+  /* Your existing CSS styles */
+
 
 .image.active {
     opacity: 1; 
 }
 .btn{
-  margin-left: 70px;
-  margin-top: 20px;
+  margin-top: 50px;
   background-color:var(--slatyGray) ;
   border: none;
   border-radius: 20px;
@@ -122,7 +112,7 @@
 
 .bar{
   background-color:var(--slatyGray) ;
-  margin-top: 200px;
+  margin-top: 5px;
   width: 100%;
   height: 150px;
   color: black;
