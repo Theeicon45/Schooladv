@@ -1,10 +1,13 @@
 .body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 :root{
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  --grey: #3A4042;
 }
+
 .name{
     position: absolute;
     margin-top: 20px;
@@ -122,4 +125,37 @@ cursor: pointer;
 }
 
 
+footer{
+  background-color: var(--grey);
+  height: 300px;
+  margin: 0;
+  display: flex;
+}
+
+.schl{
+  padding: 50px 20px 0 20px;
+  margin: 20px 0px 0px 50px;
+}
+
+.hd{
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.dtl{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+.fa-solid{
+  font-size: 25px;
+  padding-right: 10px;
+}
 
