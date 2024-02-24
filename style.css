@@ -11,6 +11,7 @@
 .name{
     position: absolute;
     margin-top: 20px;
+    font-size: 30px;
 }
 .text{
     font-weight: 500;
