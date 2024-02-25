@@ -74,23 +74,26 @@ nav ul li:hover{
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  margin: 0 0 10px 20px;
+  margin: 0 0 10px 50px;
 }
 
 .text-two{
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  margin: 20px 0 10px 20px;
+  margin: 20px 0 10px 50px;
 }
 
 .btn{
   background-color:var(--slatyGray) ;
   border: none;
-  margin: 20px 0 10px 20px;
-  border-radius: 20px;
-  width: 150px;
-  height: 40px;
+  margin: 20px 0 10px 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: var(--footergray);
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
   cursor: pointer;
   transition: .5s;
 }
@@ -109,11 +112,16 @@ nav ul li:hover{
   height: 100%;
 }
 
+.image{
+  margin: 30px;
+}
+
 .image img{
+  
   border-radius: 20px;
   border: none;
-  width: 600px;
-  height: 450px;
+  width: 500px;
+  height: 350px;
   box-shadow: 10px -10px 20px var(--black);
 }
 
