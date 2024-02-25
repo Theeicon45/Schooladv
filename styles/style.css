@@ -1,3 +1,9 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .body{
     font-family: var(--font);
 }
@@ -15,8 +21,10 @@
   --footergray:#b1adad;
 }
 
+/*----------------nav bar----------------------*/
 nav{
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,11 +32,9 @@ nav{
 
 .logo{
   height: 80px;
-  
-  
 }
 
-ul li{
+nav ul li{
   display: inline-block;
   font-size: 20px;
   padding: 20px;
@@ -37,103 +43,51 @@ ul li{
   text-align: center;
 }
 
-ul li a {
+nav ul li a {
   text-decoration: none;
   color: var(--black);
 }
-  
 
-ul li:hover{
+nav ul li:hover{
   background-color: var(--footergray);
   color: var(--gray);
-
 }
 
-.text{
-  font-weight: 500;
+/*---------body container------------------*/
+.body-container{
+  padding-top: 50px;
+  display: flex;
+  height: 450px;
+  width: 100%;
+}
+
+.text-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+}
+
+.text-one{
+  font-size: 50px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
+  margin: 0 0 10px 20px;
 }
 
-.navbar {
-    overflow: hidden;
-    
-  }
-  
-
-  .navbar a {
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  
-  .navbar a:hover {
-    background-color: #ddd;
-    color: var(--gray);
-  }
-  
-  
-  .disp {
-    display: flex;
-    height: 200px;
-    flex-direction: row; 
-}
-.tx{
-    font-size: 40px;
-    
-    
-}
-  .disp{
-    margin-top: 2vh;
-    margin-left: 5%;
-    
-  }
-  .box{
-    background-color: #f2f2f2;
-  }
-  .image {
-    
-    margin-right: 0px; 
+.text-two{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 10px 20px;
 }
 
-  .image img{
-    border-radius: 20px;
-    border: none;
-    width: 450px;
-    height: 400px;
-    margin-left: 25vw;
-    
-    box-shadow: 10px -10px 20px var(--black);
-  }
-  /* Your existing CSS styles */
-
-.image-container {
-    
-    position: relative; 
-}
-
-.image {
-   
-    position: absolute; 
-    top: 0; 
-    left: 0;
-    opacity: 1; 
-    transition: opacity 0.5s ease;
-   
-}
-
-.image.active {
-    opacity: 1; 
-}
 .btn{
-  margin-left: 70px;
-  margin-top: 20px;
   background-color:var(--slatyGray) ;
   border: none;
+  margin: 20px 0 10px 20px;
   border-radius: 20px;
   width: 150px;
   height: 40px;
@@ -148,6 +102,35 @@ ul li:hover{
   z-index: 2;
   box-shadow: 10px -10px 20px var(--slatyGray);
 }
+
+.image-container{
+  position: relative;
+  width: 50vw;
+  height: 100%;
+}
+
+.image img{
+  border-radius: 20px;
+  border: none;
+  width: 600px;
+  height: 450px;
+  box-shadow: 10px -10px 20px var(--black);
+}
+
+.image {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  opacity: 1; 
+  transition: opacity 0.5s ease;
+ 
+}
+
+.image.active {
+  opacity: 1; 
+}
+
+  
 
 .bar{
   background-color:var(--slatyGray) ;
