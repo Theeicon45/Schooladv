@@ -46,6 +46,7 @@ ul li a {
 ul li:hover{
   background-color: var(--footergray);
   color: var(--gray);
+
 }
 
 .text{
