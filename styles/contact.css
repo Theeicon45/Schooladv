@@ -94,3 +94,62 @@ button:active {
     background-color: #19d819;
     transform: scale(1); 
 }
+
+
+/*--------------------------------FOOTER---------------------------------------*/
+footer{
+  background-color: var(--footergray);
+  font-family: var(--font);
+  height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.schl{
+  padding: 30px 20px 0 20px;
+  margin: 20px 0px 0px 30px;
+}
+
+.hd{
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.dtl{
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  margin-right: 50px;
+}
+
+.fa-solid{
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.details{
+  margin: 5px;
+  font-size: 18px;
+}
+
+.details ul li{
+  display: block;
+  margin-top: 10px;
+}
+
+.myHead{
+  margin-bottom: 20px;
+  font-size: 25px;
+}
