@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     submitBtn.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default form submission
 
-        submitBtn.style.backgroundColor = '#004080'; // Change button color on click
-        submitBtn.textContent = 'Message Delivered'; // Change button text
+        submitBtn.style.backgroundColor = '#19d819'; // Change button color on click
+        submitBtn.textContent = 'Message Sent'; // Change button text
         submitBtn.disabled = true; // Disable the button
     });
 });
