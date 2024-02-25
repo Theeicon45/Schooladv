@@ -1,26 +1,32 @@
 .body{
+<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+=======
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
 }
 
 :root{
-  background-color: var(--lightGray);
-  color: black;
-  
-  --font: Verdana, Geneva, Tahoma, sans-serif;
-  --red:#ed0a10;
-  --black: #171b27;
-  --lightGray: #d3d0d0;
-  --gray: #6e7b8f;
-  --slatyGray: #1b4a81;
-  --footergray:#b1adad;
+background-color: var(--lightGray);
+color: black;
+
+--font: Verdana, Geneva, Tahoma, sans-serif;
+--red:#ed0a10;
+--black: #171b27;
+--lightGray: #d3d0d0;
+--gray: #6e7b8f;
+--slatyGray: #1b4a81;
+--footergray:#b1adad;
 }
 
 
 /* .name{
-    position: absolute;
-    margin-top: 20px;
-    font-size: 30px;
+  position: absolute;
+  margin-top: 20px;
+  font-size: 30px;
 } */
+<<<<<<< HEAD
 .text{
     font-weight: 500;
 }
@@ -29,17 +35,24 @@
     
   }
   
+=======
 
-  .navbar a {
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    
-  }
+.navbar {
+overflow: hidden;
+width: 98vw;
+}
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
+
+
+.navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
   
+<<<<<<< HEAD
   
   .navbar a:hover {
     background-color: #ddd;
@@ -98,11 +111,65 @@
     transition: opacity 0.5s ease;
    
 }
+=======
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: var(--gray);
+}
+
+.logo img{
+margin: 5px;
+height: 80px;
+position: absolute;
+border-radius: 6px;
+}
+
+.container-one{
+display: flex; 
+justify-content: space-between;
+width: 98vw;
+margin-top: 0px;
+height: 450px;
+}
+
+.container-txt{
+margin: 0 0 0 50px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 45vw;
+}
+
+.tx{
+font-size: 40px;  
+}
+
+.image{
+  margin: 50px 0 0 50px;
+  width: 45vw;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 10px -10px 20px var(--black);
+  position: absolute; 
+  right: 100px; 
+  opacity: 1; 
+  transition: opacity 0.5s ease;
+ 
+}
+
+/* Your existing CSS styles */
+
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
 
 .image.active {
-    opacity: 1; 
+  opacity: 1; 
 }
 .btn{
+<<<<<<< HEAD
   margin-left: 70px;
   margin-top: 20px;
   background-color:var(--slatyGray) ;
@@ -112,17 +179,28 @@
   height: 40px;
   cursor: pointer;
   transition: .5s;
+=======
+margin-top: 50px;
+background-color:var(--slatyGray) ;
+border: none;
+border-radius: 20px;
+width: 150px;
+height: 40px;
+cursor: pointer;
+transition: .5s;
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
 }
 
 .btn:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-  background-color: var(--slatyGray);
-  z-index: 2;
-  box-shadow: 10px -10px 20px var(--slatyGray);
+cursor: pointer;
+transform: scale(1.1);
+background-color: var(--slatyGray);
+z-index: 2;
+box-shadow: 10px -10px 20px var(--slatyGray);
 }
 
 .bar{
+<<<<<<< HEAD
   background-color:var(--slatyGray) ;
   margin-top: 200px;
   width: 100%;
@@ -132,80 +210,99 @@
   justify-content: center; 
   align-items: center; 
   flex-direction: column
+=======
+background-color:var(--slatyGray);
+width: 100%;
+height: 150px;
+color: black;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+flex-direction: column
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
 }
 
 .pic {
-    display: flex; 
-    align-items: center; 
-    margin-top: 20px;
+  display: flex; 
+  align-items: center; 
+  margin-top: 20px;
 }
 .pic img{
-    height: 30px;
-    border-radius: 50%;
+  height: 30px;
+  border-radius: 50%;
 }
 .message{
-    font-size: 20px;
+  font-size: 20px;
 
 }
 .mes {
-    font-size: 15px;
-    margin-left: 20px;
+  font-size: 15px;
+  margin-left: 20px;
 }
 
 /*--------------------------------FOOTER---------------------------------------*/
 footer{
+<<<<<<< HEAD
   background-color: var(--footergray);
   font-family: var(--font);
   height: 300px;
   margin: 0;
   display: flex;
   justify-content: space-between;
+=======
+background-color: var(--footergray);
+font-family: var(--font);
+height: 250px;
+margin: 0;
+display: flex;
+justify-content: space-between;
+>>>>>>> fbb61c89b24ddcad39e567d1c7cc10a3eec1c88c
 }
 
 .schl{
-  padding: 30px 20px 0 20px;
-  margin: 20px 0px 0px 30px;
+padding: 30px 20px 0 20px;
+margin: 20px 0px 0px 30px;
 }
 
 .hd{
-  margin-bottom: 5px;
-  font-size: 25px;
-  font-weight: bold;
+margin-bottom: 5px;
+font-size: 25px;
+font-weight: bold;
 }
 
 .info{
-  margin-bottom: 20px;
-  font-size: 20px;
+margin-bottom: 20px;
+font-size: 20px;
 }
 
 .dtl{
-  margin-bottom: 5px;
-  font-size: 18px;
+margin-bottom: 5px;
+font-size: 18px;
 }
 
 .foot{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 25px;
-  margin-right: 50px;
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+margin-right: 50px;
 }
 
 .fa-solid{
-  font-size: 25px;
-  padding-right: 10px;
+font-size: 25px;
+padding-right: 10px;
 }
 
 .details{
-  margin: 5px;
-  font-size: 18px;
+margin: 5px;
+font-size: 18px;
 }
 
 .details ul li{
-  display: block;
-  margin-top: 10px;
+display: block;
+margin-top: 10px;
 }
 
 .myHead{
-  margin-bottom: 20px;
-  font-size: 25px;
+margin-bottom: 20px;
+font-size: 25px;
 }
