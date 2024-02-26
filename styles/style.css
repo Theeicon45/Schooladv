@@ -3,17 +3,15 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: var(--font);
 }
 
 .body{
-    font-family: var(--font);
+    
 }
 
 
 :root{
-  background-color: var(--lightGray);
-  color: black;
-  
   --font: 'Poppins', sans-serif;
   --red:#ed0a10;
   --black: #171b27;
@@ -36,6 +34,7 @@ nav{
   align-items: center;
   background-color: white;
   z-index: 1000;
+  
 }
 
 .logo{
@@ -53,6 +52,7 @@ nav ul li a {
   height: 50px;
   color: var(--slatyGray);
   width: 100px;
+  font: 'Poppins', sans-serif;
 }
 
 nav ul li a:hover{
@@ -64,7 +64,7 @@ nav ul li a:hover{
 .body-container{
   padding-top: 100px;
   display: flex;
-  height: 500px;
+  height: 400px;
   width: 100%;
   font-family: var(--font);
   justify-content: space-around
@@ -238,7 +238,14 @@ footer{
 }
 
 /*--------------------contact page---------------------------------*/
-
+.body-container-contact{
+  padding-top: 100px;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  font-family: var(--font);
+  justify-content: space-around
+}
   
 form{
   height: 80vh;
