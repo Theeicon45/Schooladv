@@ -51,8 +51,11 @@ nav ul li a {
 }
 
 nav ul li:hover{
-  background-color: var(--lightGray);
-  color: var(--gray);
+  background-color: var(--slatyGray);
+}
+
+nav ul li a:hover{
+  color: var(--footergray);
 }
 
   
