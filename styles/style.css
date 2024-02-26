@@ -318,14 +318,43 @@ button:active {
 }
 
 /*----------------About----------------------*/
-.about-body-content{
-  padding-top: 100px;
+.about-body-content {
   background-color: var(--gray);
-  height: 500px;
+  height: 400px;
+  padding-top: 100px;
+}
+
+.container-one{
+  height: 400px;
+  display: flex;
+  align-items: center ;
+}
+
+.containerImg{
+  height: 400px;
+  width: 50%;
+}
+
+.containerImg img{
+  height: 380px;
+  margin: 10px 0 10px 50px;
 }
 
 .welkam{
+  text-align: center;
   margin-left: 50px;
   font-size: 30px;
-  font-weight: bold ;
+  font-weight: bold;
+}
+
+.about-logo{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.textLogo{
+  position: relative;
+  float: right;
+  left: -425px;
+  top: 10px;
 }
