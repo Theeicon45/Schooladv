@@ -147,6 +147,28 @@ nav ul li a:hover{
 .image.active {
   opacity: 1; 
 }
+/*-------------------------------------------------------------------loader-----------------------------------*/
+/* HTML: <div class="loader"></div> */
+.loader {
+  position: absolute;
+  top: 50%; /* Adjust this value based on your layout */
+  left: 30%; /* Adjust this value based on your layout */
+  transform: translate(-50%, -50%); /* Center the loader */
+  height: 4px;
+  width: 130px;
+  --c: no-repeat linear-gradient(#0189f8 0 0);
+  background: var(--c), var(--c) #79b5ee;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+  z-index: 999; /* Ensure the loader is above other content */
+}
+
+@keyframes l16 {
+  0%   { background-position: -150% 0, -150% 0; }
+  66%  { background-position: 250% 0, -150% 0; }
+  100% { background-position: 250% 0, 250% 0; }
+}
+
 
 /*---------------------------------------bar--------------------------------------*/
 .bar{
