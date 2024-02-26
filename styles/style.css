@@ -181,6 +181,7 @@ nav ul li a:hover{
 
 /*--------------------------------FOOTER---------------------------------------*/
 footer{
+  bottom: 0;
   background-color: var(--footergray);
   font-family: var(--font);
   height: 250px;
@@ -215,6 +216,7 @@ footer{
 }
 
 .foot{
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
