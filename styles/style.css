@@ -67,7 +67,8 @@ nav ul li a:hover{
   height: 400px;
   width: 100%;
   font-family: var(--font);
-  justify-content: space-around
+  justify-content: space-around;
+  background-color: var(--lightGray);
 }
 
 .text-container{
@@ -151,7 +152,6 @@ nav ul li a:hover{
 .bar{
   background-color:var(--slatyGray) ;
   font-family: var(--font);
-  margin-top: 50px;
   width: 100%;
   height: 150px;
   color: black;
@@ -241,10 +241,11 @@ footer{
 .body-container-contact{
   padding-top: 100px;
   display: flex;
-  height: 500px;
+  height: 550px;
   width: 100%;
   font-family: var(--font);
-  justify-content: space-around
+  justify-content: space-around;
+  background-color: var(--lightGray);
 }
   
 form{
