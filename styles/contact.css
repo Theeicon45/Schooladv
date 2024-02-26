@@ -47,11 +47,11 @@ nav ul li{
 
 nav ul li a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--lightGray);
 }
 
 nav ul li:hover{
-  background-color: var(--footergray);
+  background-color: var(--red);
   color: var(--gray);
 }
 
