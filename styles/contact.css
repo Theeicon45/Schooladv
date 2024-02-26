@@ -1,21 +1,5 @@
-*{
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
 
-:root{
-    background-color: var(--lightGray);
-    color: black;
-    
-    --font: 'Poppins', sans-serif;
-    --red:#ed0a10;
-    --black: #171b27;
-    --lightGray: #d3d0d0;
-    --gray: #6e7b8f;
-    --slatyGray: #1b4a81;
-    --footergray:#b1adad;
-  }
+
   .body{
 font-family: var(--font);
 display: flex;
@@ -36,119 +20,19 @@ button {
 
 /* Apply font-family to the navbar links */
 
-    
-
-/*---------------------nav bar---------------------------------*/
-nav{
-  position: fixed;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-}
-
-.logo{
-  height: 80px;
-}
-
-nav ul li{
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-  cursor: pointer;
-  width: 100px;
-  text-align: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: var(--slatyGray);
-  font-family: var(--font);
-}
-
-
-nav ul li:hover{
-  background-color: var(--slatyGray);
-}
-
-nav ul li a:hover{
-  color: var(--footergray);
-}
-
   
-  
-form{
-  height: 80vh;
-  width: 35vw;
-  padding: 20px;
+
  
-}
- 
-form p {
-  font-size: 15px;
-  margin-bottom: 20px;
-  
-}
-form h1 {
-  margin-top: 0;
-  
-}
-
-label {
-    display: block; 
-    margin: 10px;
-    
-}
- input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 5px;
-}
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--slatyGray);
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-    
-}
 
 
-button:hover {
-    background-color: #0084ff;
-    transform: scale(1.1);
-}
-button:active {
-    background-color: #19d819;
-    transform: scale(1); 
-}
+
+
 
 /*---------------------------body content----------------------------------------*/
 
-.body-container{
-  padding-top: 100px;
-  display: flex;
-  height: 500px;
-  width: 100%;
-  justify-content: space-around;
-}
 
-.mapFrame{
-  margin: 10px 0 0 20px;
-  width: 700px;
-  height: 450px;
-  border: 0;
-}
+
+
 
 
 /*--------------------------------FOOTER---------------------------------------*/

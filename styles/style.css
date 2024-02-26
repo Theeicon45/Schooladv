@@ -27,11 +27,14 @@
 
 /*----------------nav bar----------------------*/
 nav{
+  position: fixed;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  z-index: 1000;
 }
 
 .logo{
@@ -62,11 +65,12 @@ nav ul li:hover{
 
 /*--------------------------------body container-------------------------------*/
 .body-container{
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
-  height: 400px;
+  height: 500px;
   width: 100%;
   font-family: var(--font);
+  justify-content: space-around
 }
 
 .text-container{
@@ -236,4 +240,69 @@ footer{
   margin-top: 10px;
 }
 
+/*--------------------contact page---------------------------------*/
 
+  
+form{
+  height: 80vh;
+  width: 35vw;
+  padding: 20px;
+}
+
+form p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  
+}
+
+form h1 {
+  margin-top: 0;
+  
+}
+
+label {
+  display: block; 
+  margin: 10px;
+  
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--slatyGray);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+
+button:hover {
+  background-color: #0084ff;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #19d819;
+  transform: scale(1); 
+}
+
+.mapFrame{
+  margin: 10px 0 0 20px;
+  width: 700px;
+  height: 450px;
+  border: 0;
+}
