@@ -339,7 +339,7 @@ button:active {
   border: 0;
 }
 
-/*----------------About----------------------*/
+/*----------------blog----------------------*/
 .about-body-content {
   background-color: var(--gray);
   height: 400px;
@@ -381,4 +381,19 @@ button:active {
   float: right;
   left: -425px;
   top: 10px;
+}
+
+/*-------------------------------about------------------------------------------*/
+
+.about-container-one{
+  padding: 150px 200px 0 250px;
+  height: 1000px;
+  background-color: var(--gray);
+  text-align: center;
+
+}
+
+.about-container-one img{
+  padding: 50px 0 20px 0;
+  height: 500px;
 }
