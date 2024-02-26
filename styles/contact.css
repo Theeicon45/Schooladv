@@ -21,13 +21,15 @@ font-family: var(--font);
 display: flex;
   }
 
-/*----------------nav bar----------------------*/
+/*---------------------nav bar---------------------------------*/
 nav{
+  position: fixed;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--slatyGray);
 }
 
 .logo{
@@ -109,7 +111,7 @@ button:active {
 /*---------------------------body content----------------------------------------*/
 
 .body-container{
-  padding-top: 20px;
+  padding-top: 100px;
   display: flex;
   height: 500px;
   width: 100%;
