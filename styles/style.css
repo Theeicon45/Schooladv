@@ -53,7 +53,7 @@ nav ul li:hover{
   color: var(--gray);
 }
 
-/*---------body container------------------*/
+/*--------------------------------body container-------------------------------*/
 .body-container{
   padding-top: 50px;
   display: flex;
@@ -138,7 +138,7 @@ nav ul li:hover{
   opacity: 1; 
 }
 
-/*----------------bar------------------*/
+/*---------------------------------------bar--------------------------------------*/
 .bar{
   background-color:var(--slatyGray) ;
   margin-top: 50px;
