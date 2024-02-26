@@ -29,7 +29,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--slatyGray);
+  background-color: white;
 }
 
 .logo{
@@ -47,11 +47,11 @@ nav ul li{
 
 nav ul li a {
   text-decoration: none;
-  color: var(--lightGray);
+  color: var(--slatyGray);
 }
 
 nav ul li:hover{
-  background-color: var(--red);
+  background-color: var(--lightGray);
   color: var(--gray);
 }
 
