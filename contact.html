@@ -9,29 +9,33 @@
     
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="Images/logo.jpg" alt="image3">
-        </div>
-      <!--  <div class="name">ST BAKHITA EQUATOR SCHOOL</div> -->
-        <a href="contact.html">Contact Us</a>
-        <a href="#blog">Blog</a>
-        <a href="#about">About Us</a>
-         <a href="index.html">Home</a>
-    </div>
+    <nav>
+        <img src="Images/logo.jpg" alt="logo of the school" class="logo" >
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
 
-    <div class="form">
-        <h1>Contact us</h1>
-        <p>Connect with SchoolSpotlight. <br>
+    <div class="body-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3288.4830114990255!2d37.06549216139228!3d-0.010688547771866858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18281d914b9b9399%3A0x78f15607f6f88c24!2sSt.%20Bhakita%20School!5e1!3m2!1sen!2ske!4v1708928505620!5m2!1sen!2ske" style="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapFrame"></iframe>
+
+        <div class="form">
+            <h1>Contact us</h1>
+            <p>Connect with SchoolSpotlight. <br>
             We're here to help.</p>
             <div class="name">
                 <label for="name">Name</label>
                 <input type="text" placeholder="Full Name" name="fullName" class="input" required>
             </div>
+    
             <div class="email">
                 <label for="name">Email</label>
                 <input type="text" placeholder="Email" name="email" class="input" required>
             </div>
+    
             <div class="message">
                 <label for="name">Message</label>
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="How can we assist you?"></textarea>
@@ -39,7 +43,13 @@
             <div class="submit">
                 <button type="submit" id="submitBtn"> Send message</button>
             </div>
-      </div>
+        </div>
+    </div>
+
+
+    
+
+    
 
      <!------------------------------------FOOTER------------------------------------------> 
        
