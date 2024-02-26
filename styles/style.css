@@ -316,3 +316,16 @@ button:active {
   height: 500px;
   border: 0;
 }
+
+/*----------------About----------------------*/
+.about-body-content{
+  padding-top: 100px;
+  background-color: var(--gray);
+  height: 500px;
+}
+
+.welkam{
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: bold ;
+}
