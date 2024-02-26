@@ -12,7 +12,7 @@
   background-color: var(--lightGray);
   color: black;
   
-  --font: Verdana, Geneva, Tahoma, sans-serif;
+  --font: 'Poppins', sans-serif;
   --red:#ed0a10;
   --black: #171b27;
   --lightGray: #d3d0d0;

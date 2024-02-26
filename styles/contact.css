@@ -8,7 +8,7 @@
     background-color: var(--lightGray);
     color: black;
     
-    --font: Verdana, Geneva, Tahoma, sans-serif;
+    --font: 'Poppins', sans-serif;
     --red:#ed0a10;
     --black: #171b27;
     --lightGray: #d3d0d0;
@@ -64,14 +64,17 @@ form{
   height: 80vh;
   width: 35vw;
   padding: 20px;
+ 
 }
  
 form p {
   font-size: 15px;
   margin-bottom: 20px;
+  
 }
 form h1 {
   margin-top: 0;
+  
 }
 
 label {
