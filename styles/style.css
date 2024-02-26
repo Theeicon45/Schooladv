@@ -7,6 +7,9 @@
 .body{
     font-family: var(--font);
 }
+.body-container{
+  font-family: var(--font);
+}
 
 :root{
   background-color: var(--lightGray);
@@ -20,6 +23,9 @@
   --slatyGray: #1b4a81;
   --footergray:#b1adad;
 }
+
+
+/* Apply font-family to the navbar links */
 
 /*----------------nav bar----------------------*/
 nav{
@@ -46,7 +52,10 @@ nav ul li{
 nav ul li a {
   text-decoration: none;
   color: var(--black);
+  font-family: var(--font);
 }
+
+
 
 nav ul li:hover{
   background-color: var(--footergray);

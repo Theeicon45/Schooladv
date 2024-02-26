@@ -20,6 +20,23 @@
 font-family: var(--font);
 display: flex;
   }
+  .body-container,
+nav,
+nav ul li,
+form,
+form p,
+form h1,
+label,
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    font-family: var(--font);
+}
+
+/* Apply font-family to the navbar links */
+
+    
 
 /*---------------------nav bar---------------------------------*/
 nav{
@@ -48,7 +65,9 @@ nav ul li{
 nav ul li a {
   text-decoration: none;
   color: var(--slatyGray);
+  font-family: var(--font);
 }
+
 
 nav ul li:hover{
   background-color: var(--slatyGray);
