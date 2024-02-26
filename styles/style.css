@@ -338,6 +338,7 @@ button:active {
 .containerImg img{
   height: 380px;
   margin: 10px 0 10px 50px;
+  border-radius: 20px;
 }
 
 .welkam{
