@@ -205,9 +205,13 @@ footer{
   font-size: 20px;
 }
 
-.dtl{
-  margin-bottom: 5px;
-  font-size: 18px;
+.social-media{
+  margin: 0 0 20px 0;
+  font-size: 25px;
+}
+
+.fa-facebook{
+  padding: 0 20px 0 0;
 }
 
 .foot{
