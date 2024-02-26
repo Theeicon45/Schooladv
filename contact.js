@@ -9,25 +9,17 @@ document.addEventListener("DOMContentLoaded", function() {
         submitBtn.disabled = true; // Disable the button
     });
 });
-window.addEventListener('DOMContentLoaded', function () {
-    var mapFrame = document.querySelector('.mapFrame');
+
+  window.addEventListener('DOMContentLoaded', function () {
     var loader = document.querySelector('.loader');
   
-    // Hide the loader initially
-    loader.style.display = 'none';
+    // Show the loader initially
+    loader.style.display = 'block';
   
-    // Show the loader when the iframe starts loading
-    mapFrame.addEventListener('loadstart', function () {
-      loader.style.display = 'block';
-    });
-  
-    // Hide the loader when the iframe finishes loading
-    mapFrame.addEventListener('load', function () {
-      // Delay hiding the loader by 2 seconds
-      setTimeout(function () {
-        loader.style.display = 'none';
-      }, 12000);
-    });
+    // Hide the loader after 10 seconds
+    setTimeout(function () {
+      loader.style.display = 'none';
+    }, 10000); // 10 seconds
   });
   
   
