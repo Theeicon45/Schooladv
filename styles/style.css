@@ -399,3 +399,18 @@ button:active {
   padding: 50px 0 20px 0;
   height: 500px;
 }
+
+.history{
+  padding: 50px;
+  background-color: var(--slatyGray);
+  color: white;
+}
+
+.history ul{
+  padding-left: 50px;
+}
+
+.history h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
