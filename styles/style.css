@@ -156,8 +156,8 @@ nav ul li a:hover{
   top: 50%; /* Adjust this value based on your layout */
   left: 30%; /* Adjust this value based on your layout */
   transform: translate(-50%, -50%); /* Center the loader */
-  height: 4px;
-  width: 130px;
+  height: 10px;
+  width: 200px;
   --c: no-repeat linear-gradient(#0189f8 0 0);
   background: var(--c), var(--c) #79b5ee;
   background-size: 60% 100%;
@@ -390,7 +390,7 @@ button:active {
 .about-container-one{
   padding: 150px 200px 0 250px;
   height: 1000px;
-  background-color: var(--gray);
+  background-color: var(--slatyGray);
   text-align: center;
 
 }
@@ -402,7 +402,7 @@ button:active {
 
 .history{
   padding: 50px;
-  background-color: var(--slatyGray);
+  background-color: var(--gray);
   color: white;
 }
 
