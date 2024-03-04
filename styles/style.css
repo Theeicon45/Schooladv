@@ -400,6 +400,20 @@ button:active {
   padding: 50px 0 20px 0;
   height: 500px;
 }
+.exploret{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px; 
+  
+}
+.exploret img{
+  height: 400px;
+  border-radius: 20px;
+
+}
+.exploret h1 {
+  font-size: 50px;
+}
 
 .history{
   padding: 50px;
