@@ -54,7 +54,7 @@ nav ul li a {
   color: var(--slatyGray);
   width: 100px;
   font: 'Poppins', sans-serif;
-  transition: 0.5s;
+  
 }
 
 nav ul li a:hover{
@@ -392,6 +392,7 @@ button:active {
   height: 1000px;
   background-color: var(--slatyGray);
   text-align: center;
+  color: #fff;
 
 }
 
