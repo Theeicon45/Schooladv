@@ -154,7 +154,7 @@ nav ul li a:hover{
 .loader {
   position: absolute;
   top: 50%; /* Adjust this value based on your layout */
-  left: 30%; /* Adjust this value based on your layout */
+  left: 50%; /* Adjust this value based on your layout */
   transform: translate(-50%, -50%); /* Center the loader */
   height: 10px;
   width: 200px;
