@@ -416,17 +416,16 @@ button:active {
 .history h1{
   text-align: center;
   padding-bottom: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
+
 }
 .team{
   color: wheat;
   background-color: black;
-=======
+
 }
 .team{
->>>>>>> fb6d932 (team)
+
   display: flex;
   flex-direction: column;
   justify-content: center;
