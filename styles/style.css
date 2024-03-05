@@ -417,11 +417,16 @@ button:active {
   text-align: center;
   padding-bottom: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 .team{
   color: wheat;
   background-color: black;
+=======
+}
+.team{
+>>>>>>> fb6d932 (team)
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -447,5 +452,8 @@ button:active {
 .member img{
   width: 150px;
   border-radius: 50%;
+<<<<<<< HEAD
 >>>>>>> dd89273 (many changes)
+=======
+>>>>>>> fb6d932 (team)
 }
