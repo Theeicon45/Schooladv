@@ -145,9 +145,24 @@ nav ul li a:hover{
   opacity: 1; 
 }
 /*-------------------------------------------------------------------loader-----------------------------------*/
-
-
-
+/* HTML: <div class="loader"></div> */
+.loader {
+  height: 10px;
+  width: 150px;
+  --c:no-repeat linear-gradient(#0189f8 0 0);
+  background: var(--c),var(--c),#79b5ee;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+  margin: 0px;
+  top: 60% !important;
+  left: 30% !important; /* Use !important to prioritize the custom value */
+  position: absolute;
+}
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
+}
 /*---------------------------------------bar--------------------------------------*/
 .bar{
   background-color:var(--slatyGray) ;
@@ -250,7 +265,7 @@ footer{
   height: 550px;
   width: 100%;
   font-family: var(--font);
-  justify-content: space-around;
+  /* justify-content: space-around; */
   background-color: var(--lightGray);
 }
   
@@ -451,8 +466,4 @@ button:active {
 .member img{
   width: 150px;
   border-radius: 50%;
-<<<<<<< HEAD
->>>>>>> dd89273 (many changes)
-=======
->>>>>>> fb6d932 (team)
 }
