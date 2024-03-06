@@ -225,7 +225,9 @@ footer{
   margin: 0 0 20px 0;
   font-size: 25px;
 }
-
+.social-media a{
+color: black;
+}
 .fa-facebook{
   padding: 0 15px 0 0;
 }
@@ -247,7 +249,9 @@ footer{
   margin: 5px;
   font-size: 15px;
 }
-
+.details ul li a {
+ color: black;
+}
 .myHead{
   margin-bottom: 20px;
   font-size: 20px;
