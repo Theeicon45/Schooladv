@@ -511,18 +511,41 @@ button:active {
 /* ---------------------------responsive-------------------------------------- */
 
 @media (max-width: 450px) {
+
+  *{
+
+  }
+
   nav{
     width: 100%;
+    position: absolute;
+    
+  }
+
+  nav ul{
+    margin-top: 400px;
+    background-color: #19d819;
+    height: 300px;
   }
 
   nav ul li{
     display: block;
+
+    
+    
   }
 
   .body-container{
     width: 100%;
     display: block;
-    height: auto;
+    height: 1000px;
+    padding-top: 0;
+    background-color: #0084ff;
+
+  }
+
+  .image-container{
+    
   }
 
   .bar{
