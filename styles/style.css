@@ -386,7 +386,6 @@ button:active {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  
 }
 
 .about-logo{
@@ -691,7 +690,6 @@ button:active {
 
     margin-top: 10px;
     width: 100%;
-    display: grid;
     /* grid-template-columns: repeat (2, 0fr);*/ /* Adjust the number of columns based on the items per row */
     /* grid-gap: 0px; */ /* Adjust the gap between items */
     display: flex;
@@ -712,4 +710,42 @@ button:active {
     width: 90%;
   }
 
+  /* ----------------------------blog------------------------------------ */
+
+  .about-body-content{
+    height: auto;
+  }
+
+  .about-body-content img{
+    height: 50vh;
+  }
+
+  .container-one{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .containerImg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .containerImg img{
+    width: 100%;
+    margin: 0;
+  }
+
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-element{
+    width: 40vw;
+  }
 }
