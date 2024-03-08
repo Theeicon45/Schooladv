@@ -97,7 +97,7 @@ nav ul li a:hover{
   border: none;
   margin: 20px 0 10px 50px;
   border-radius: 30px;
-  font-size: 18px;
+   font-size: 18px;
   color: var(--footergray);
   font-weight: bold;
   width: 200px;
@@ -513,38 +513,43 @@ button:active {
 @media (max-width: 450px) {
 
   *{
-
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
 
   nav{
-    background-color: aqua;
-    height: 100px;
-    
+    display: inline;
+    width: 100%;
+    background-color: #19d819;
   }
 
   nav ul{
-    margin-top: 250px;
-    background-color: #0084ff;
-    
+    display: grid;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
   }
-
-    
-
-  nav ul li{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-  }
-
+  
   .body-container{
     width: 100%;
     display: block;
     height: 1000px;
     padding-top: 0;
-    background-color: #0084ff;
-
+    height: 50vh;
   }
 
+  .text-one{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .text-container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #0084ff;
+  }
   .image-container{
     
   }
@@ -553,8 +558,25 @@ button:active {
     width: 100%;
   }
 
+  .btn{
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+  }
+
+  .btn a{
+    font-size: 10px;
+  }
+
+
+
   footer{
     width: 100%;
+    display: block;
+    height: auto;
+  }
 
+  .foot{
+    display: inline;
   }
 }
