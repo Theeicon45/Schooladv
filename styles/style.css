@@ -33,6 +33,14 @@ nav{
   
 }
 
+.fa-ellipsis-vertical{
+  display: none;
+}
+
+.fa-ellipsis{
+  display: none;
+}
+
 .logo{
   height: 80px;
 }
@@ -522,6 +530,7 @@ button:active {
     position: absolute;
     right: 0;
     margin: 20px;
+    display: inline;
   }
 
   .fa-ellipsis{
