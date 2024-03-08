@@ -415,7 +415,7 @@ button:active {
 
 .about-container-one img{
   padding: 50px 0 20px 0;
-  height: 500px;
+  height: auto;
 }
 .exploret{
   display: flex;
@@ -473,7 +473,6 @@ button:active {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -673,8 +672,15 @@ button:active {
     flex-direction: column;
   }
 
+  .exploret img{
+    height: auto;
+  }
+
   .team-txt{
-    width: 100%;
+    width: 98%;
+    padding: 0 1% 0 1%;
+    background-color: #0084ff;
+    text-align: center;
   }
 
   .team-txt h1{
@@ -682,8 +688,8 @@ button:active {
   }
 
   .team-members{
-    background-color: #79b5ee;
-    margin-top: 0px;
+
+    margin-top: 10px;
     width: 100%;
     display: grid;
     /* grid-template-columns: repeat (2, 0fr);*/ /* Adjust the number of columns based on the items per row */
