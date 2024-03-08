@@ -653,7 +653,9 @@ button:active {
     height: 50vh;
   }
 
-  
+  .load{
+    height: 400px;
+  }
 
   form{
     display: flex;
