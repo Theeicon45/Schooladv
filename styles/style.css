@@ -164,9 +164,11 @@ nav ul li a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
 }
 
 .loader {
+  visibility: visible;
   height: 10px;
   width: 150px;
   --c:no-repeat linear-gradient(#0189f8 0 0);
