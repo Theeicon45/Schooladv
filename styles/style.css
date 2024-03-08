@@ -520,8 +520,9 @@ button:active {
 
 @media (max-width: 450px) {
 
+
   nav{
-    margin-top: -30px;
+    margin-top: 0px;
     display: inline;
     width: 100%;
   }
@@ -558,7 +559,7 @@ button:active {
     width: 100%;
     display: block;
     height: 1000px;
-    padding-top: 0;
+    margin-top: 0;
     height: 50vh;
   }
 
@@ -596,7 +597,7 @@ button:active {
   }
 
   footer{
-    margin-top: -20px;
+    margin-top: 0px;
     width: 100%;
     display: flex;
     height: auto;
@@ -616,5 +617,33 @@ button:active {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+  }
+
+  /* --------------contact page----------------------- */
+
+  .body-container-contact{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .mapFrame{
+    width: 100%;
+    height: 50vh;
+  }
+
+  .loader{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 20%;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    width: 90%;
+    height: auto;
   }
 }
