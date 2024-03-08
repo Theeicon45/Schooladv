@@ -550,10 +550,15 @@ button:active {
     width: 100%;
     text-align: center;
     transition: 1s;
+    height: 300px;
   }
 
   nav ul li{
     padding: 10px 0 0 10px;
+  }
+
+  nav ul li a:hover{
+    background-color: transparent;
   }
   
   .body-container{
@@ -573,9 +578,6 @@ button:active {
     margin-top: 30px;
     padding: 0px;
     width: 100%;
-    
-  }
-  .image-container{
     
   }
 
@@ -656,7 +658,6 @@ button:active {
     margin: 0;
     height: auto;
     padding: 100px 0 0 0;
-    background-color: #0084ff;
   }
 
   .about-container-one img{
@@ -669,8 +670,15 @@ button:active {
   }
 
   .exploret{
-    background-color: #0084ff;
     flex-direction: column;
+  }
+
+  .team-txt{
+    width: 100%;
+  }
+
+  .team-txt h1{
+    text-align: center;
   }
 
   .team-members{
@@ -682,13 +690,8 @@ button:active {
   }
 
   .member{
-    width: 100%;
-    background-color: #19d819;
-    height: 100%;
+    padding: 0;
+    height: 250px;
   }
 
-  .member img{
-    width: 100%;
-    margin: 0;
-  }
 }
