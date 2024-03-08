@@ -74,7 +74,8 @@ nav ul li a:hover{
   width: 100%;
   font-family: var(--font);
   justify-content: space-around;
-  background-color: var(--lightGray);
+  /* background-color: var(--lightGray); */
+  
 }
 
 .text-container{
@@ -361,14 +362,14 @@ button:active {
 .about-body-content {
   background-image: url("Images/class.jpg");
   /* background-color: var(--gray); */
-  height: 400px;
+  height: 500px;
   padding-top: 100px;
 }
 
 .about-body-content img{
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 0px;
   z-index: -1;
 }
 
@@ -397,7 +398,7 @@ button:active {
   margin-left: 0px;
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .about-logo{
