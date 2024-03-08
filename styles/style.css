@@ -404,7 +404,8 @@ button:active {
 /*-------------------------------about------------------------------------------*/
 
 .about-container-one{
-  padding: 150px 200px 0 250px;
+  width: 100%;
+  padding: 150px 0 0 0;
   height: 1000px;
   background-color: white;
   text-align: center;
@@ -645,5 +646,49 @@ button:active {
     padding: 20px 0 20px 0;
     width: 90%;
     height: auto;
+  }
+
+
+  /* -------------about------------------- */
+
+  .about-container-one{
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 100px 0 0 0;
+    background-color: #0084ff;
+  }
+
+  .about-container-one img{
+    width: 95%;
+  }
+
+  .history{
+    width: 100%;
+    padding: 0;
+  }
+
+  .exploret{
+    background-color: #0084ff;
+    flex-direction: column;
+  }
+
+  .team-members{
+    margin-top: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* Adjust the number of columns based on the items per row */
+    grid-gap: 0px; /* Adjust the gap between items */
+  }
+
+  .member{
+    width: 100%;
+    background-color: #19d819;
+    height: 100%;
+  }
+
+  .member img{
+    width: 100%;
+    margin: 0;
   }
 }
