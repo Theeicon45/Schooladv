@@ -682,16 +682,28 @@ button:active {
   }
 
   .team-members{
+    background-color: #79b5ee;
     margin-top: 0px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 0fr); /* Adjust the number of columns based on the items per row */
-    grid-gap: 0px; /* Adjust the gap between items */
+    /* grid-template-columns: repeat (2, 0fr);*/ /* Adjust the number of columns based on the items per row */
+    /* grid-gap: 0px; */ /* Adjust the gap between items */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
   }
 
   .member{
-    padding: 0;
-    height: 250px;
+    width: 45vw;
+    padding: 0 10px 10px 0;
+    margin: 0px;
+    height: auto ;
+    gap: 20px;
+  }
+
+  .member img{
+    width: 90%;
   }
 
 }
