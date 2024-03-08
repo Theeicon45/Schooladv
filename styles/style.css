@@ -541,12 +541,13 @@ button:active {
   }
 
   nav ul{
+    margin-top: -5px;
     display: grid;
-    margin-left: -450px;
+    margin-left: -100%;
     background-color: tomato;
     width: 100%;
     text-align: center;
-    
+    transition: 1s;
   }
 
   nav ul li{

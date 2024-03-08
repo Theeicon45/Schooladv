@@ -30,3 +30,18 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+var button_one = document.getElementById("fa-ellipsis-vertical");
+var button_two = document.getElementById("fa-ellipsis");
+var nav_list = document.getElementById("nav_list");
+
+button_one.onclick= function(){
+    nav_list.style.paddingLeft = "100%";
+    button_one.style.visibility = "hidden";
+    button_two.style.visibility = "visible";
+}
+
+button_two.onclick= function(){
+    nav_list.style.paddingLeft = "0%";
+    button_one.style.visibility = "visible";
+    button_two.style.visibility = "hidden";
+}
