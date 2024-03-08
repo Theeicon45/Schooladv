@@ -34,11 +34,11 @@ nav{
 }
 
 .fa-ellipsis-vertical{
-  display: none;
+  visibility: hidden;
 }
 
 .fa-ellipsis{
-  display: none;
+  visibility: hidden;
 }
 
 .logo{
@@ -527,17 +527,17 @@ button:active {
   }
 
   .fa-ellipsis-vertical{
+    visibility: visible;
     position: absolute;
     right: 0;
     margin: 20px;
-    display: inline;
   }
 
   .fa-ellipsis{
     position: absolute;
     right: 0;
     margin: 20px;
-    display: none;
+    visibility: hidden;
   }
 
   nav ul{
