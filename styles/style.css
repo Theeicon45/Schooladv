@@ -738,7 +738,7 @@ button:active {
   }
 
   .about-body-content img{
-    height: 50vh;
+    height: auto;
   }
 
   .container-one{
