@@ -369,8 +369,6 @@ button:active {
 
 /*----------------blog----------------------*/
 .about-body-content {
-  /* background-image: url("Images/gatess.jpg"); */
-  /* background-color: var(--gray); */
   height: 400px;
   padding-top: 100px;
 }
