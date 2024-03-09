@@ -369,7 +369,7 @@ button:active {
 
 /*----------------blog----------------------*/
 .about-body-content {
-  background-image: url("Images/class.jpg");
+  /* background-image: url("Images/gatess.jpg"); */
   /* background-color: var(--gray); */
   height: 400px;
   padding-top: 100px;
@@ -407,7 +407,7 @@ button:active {
   margin-left: 0px;
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .about-logo{
