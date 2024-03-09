@@ -685,16 +685,21 @@ button:active {
 
   .exploret{
     flex-direction: column;
+    height: auto;
   }
 
   .exploret img{
     height: auto;
   }
 
+  .team{
+    height: auto;
+  }
+
   .team-txt{
     width: 98%;
     padding: 0 1% 0 1%;
-    background-color: #0084ff;
+
     text-align: center;
   }
 
