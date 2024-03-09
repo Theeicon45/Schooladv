@@ -160,11 +160,12 @@ nav ul li a:hover{
   width: 50%;
   height: 450px;
   background-color: blanchedalmond;
-  opacity: 50%;
+  opacity: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
 }
 
 .loader {
@@ -175,6 +176,7 @@ nav ul li a:hover{
   background-size: 60% 100%;
   animation: l16 3s infinite;
   margin: 0px;
+  visibility: visible;
   /* top: 60% !important;
   left: 30% !important; */ /* Use !important to prioritize the custom value */
 
@@ -652,9 +654,6 @@ button:active {
     height: 50vh;
   }
 
-  .load{
-    height: ;
-  }
 
   form{
     display: flex;
