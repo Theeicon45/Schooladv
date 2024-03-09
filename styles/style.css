@@ -70,11 +70,11 @@ nav ul li a:hover{
 .body-container{
   padding-top: 100px;
   display: flex;
-  height: 400px;
+  height: 500px;
   width: 100%;
   font-family: var(--font);
   justify-content: space-around;
-  background-color: var(--lightGray);
+ 
 }
 
 .text-container{
@@ -83,6 +83,7 @@ nav ul li a:hover{
   flex-direction: column;
   height: 100%;
   width: 50vw;
+  background-color: none;
 }
 
 .text-one{
@@ -98,6 +99,13 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   margin: 20px 0 10px 50px;
+}
+
+video{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
 }
 
 .btn{
