@@ -401,6 +401,7 @@ button:active {
   color: black;
 }
 
+
 .about-logo{
   width: 50px;
   border-radius: 50%;
@@ -737,6 +738,7 @@ button:active {
   .about-body-content img{
     height: 50vh;
   }
+
 
   .container-one{
     display: flex;
