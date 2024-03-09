@@ -70,7 +70,7 @@ nav ul li a:hover{
 .body-container{
   padding-top: 100px;
   display: flex;
-  height: 500px;
+  height: 110vh;
   width: 100%;
   font-family: var(--font);
   justify-content: space-around;
@@ -133,7 +133,7 @@ video{
 .image-container{
   position:absolute;
   width: 100%;
-  background-color: #19d819;
+ 
   z-index: -1;
 }
 
