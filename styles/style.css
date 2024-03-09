@@ -74,8 +74,7 @@ nav ul li a:hover{
   width: 100%;
   font-family: var(--font);
   justify-content: space-around;
-  /* background-color: var(--lightGray); */
-  
+  background-color: var(--lightGray);
 }
 
 .text-container{
@@ -160,15 +159,15 @@ nav ul li a:hover{
 .load{
   width: 50%;
   height: 450px;
+  background-color: blanchedalmond;
+  opacity: 50%;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
 }
 
 .loader {
-  visibility: visible;
   height: 10px;
   width: 150px;
   --c:no-repeat linear-gradient(#0189f8 0 0);
@@ -362,14 +361,14 @@ button:active {
 .about-body-content {
   background-image: url("Images/class.jpg");
   /* background-color: var(--gray); */
-  height: 500px;
+  height: 400px;
   padding-top: 100px;
 }
 
 .about-body-content img{
   width: 100%;
   position: absolute;
-  top: 0px;
+  top: 0;
   z-index: -1;
 }
 
@@ -398,9 +397,8 @@ button:active {
   margin-left: 0px;
   font-size: 30px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
-
 
 .about-logo{
   width: 50px;
@@ -464,14 +462,12 @@ button:active {
 .team{
   color: wheat;
   background-color: black;
-
-}
-.team{
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 750px;
+
 }
 
 .team-members {
@@ -487,6 +483,7 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .member img{
@@ -656,7 +653,7 @@ button:active {
   }
 
   .load{
-    height: 400px;
+    height: ;
   }
 
   form{
@@ -698,6 +695,7 @@ button:active {
   .team-txt{
     width: 98%;
     padding: 0 1% 0 1%;
+    background-color: #0084ff;
     text-align: center;
   }
 
@@ -738,7 +736,6 @@ button:active {
   .about-body-content img{
     height: 50vh;
   }
-
 
   .container-one{
     display: flex;
