@@ -419,7 +419,7 @@ button:active {
 .about-container-one{
   width: 100%;
   padding: 150px 0 0 0;
-  height: 1000px;
+  height: auto;
   background-color: white;
   text-align: center;
   color: black;
