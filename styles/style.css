@@ -585,10 +585,8 @@ button:active {
   
   .body-container{
     width: 100%;
-    display: block;
-    height: 1000px;
     margin-top: 0;
-    height: 50vh;
+    height: 30vh;
   }
 
   .text-one{
