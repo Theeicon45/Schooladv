@@ -79,9 +79,10 @@ nav ul li a:hover{
 .text-container{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100%;
-  width: 50vw;
+  width: 100vw;
   background-color: none;
 }
 
@@ -90,14 +91,14 @@ nav ul li a:hover{
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  margin: 0 0 10px 50px;
+  margin: 0;
 }
 
 .text-two{
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  margin: 20px 0 10px 50px;
+  margin: 10px 0 10px 10px;
 }
 
 video{
@@ -581,7 +582,7 @@ button:active {
   .body-container{
     width: 100%;
     margin-top: 0;
-    height: 30vh;
+    height: auto;
   }
 
   .text-one{
