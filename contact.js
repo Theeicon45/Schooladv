@@ -2,26 +2,35 @@ document.addEventListener("DOMContentLoaded", function() {
   var submitBtn = document.getElementById('submitBtn');
 
   submitBtn.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevent default form submission
+    event.preventDefault(); // Prevent default form submission
 
       // Check if all fields are filled
       var allFieldsFilled = true;
       var formFields = document.querySelectorAll('input[type="text"], textarea');
       formFields.forEach(function(field) {
           if (field.value.trim() === '') {
-              allFieldsFilled = false;
-              return;
+            allFieldsFilled = false;
+            return;
           }
       });
 
       if (!allFieldsFilled) {
-          alert('Please fill in all fields before sending the message.');
-          return;
+        alert('Please fill in all fields before sending the message.');
+        return;
       }
 
       submitBtn.style.backgroundColor = '#19d819'; // Change button color on click
       submitBtn.textContent = 'Message Sent'; // Change button text
       submitBtn.disabled = true; // Disable the button
+      
+      setTimeout(function() {
+        formFields.forEach(function(field) {
+            field.value = '';
+        });
+        submitBtn.style.backgroundColor = ''; // Reset button color
+        submitBtn.textContent = 'Send Message'; // Reset button text
+        submitBtn.disabled = false; // Enable the button
+    }, 2000);
   });
 });
 
