@@ -74,7 +74,6 @@ nav ul li a:hover{
   width: 100%;
   font-family: var(--font);
   justify-content: space-around;
- 
 }
 
 .text-container{
@@ -132,8 +131,12 @@ video{
 
 .image-container{
   position:absolute;
-  width: 100%;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
+  width: 90%;
+ background-color: #0084ff;
   z-index: -1;
 }
 
@@ -617,6 +620,11 @@ button:active {
   .btn a{
     font-size: 10px;
 
+  }
+
+  .image-container{
+    right: 0;
+    width: 100%;
   }
 
   footer{
