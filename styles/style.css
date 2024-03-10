@@ -292,7 +292,6 @@ color: black;
   height: 550px;
   width: 100%;
   font-family: var(--font);
-  justify-content: space-around;
   background-color: var(--lightGray);
 }
   
