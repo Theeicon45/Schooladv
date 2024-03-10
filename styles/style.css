@@ -299,6 +299,7 @@ form{
   height: 80vh;
   width: 35vw;
   padding: 20px;
+  margin-left: 20px;
 }
 
 form p {
@@ -655,8 +656,8 @@ button:active {
   }
 
   .loader{
-    top: 35% !important;
-    left: 50% !important;
+    top: 45% !important;
+    left: 40% !important;
   }
 
 
