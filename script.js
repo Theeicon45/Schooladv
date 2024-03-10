@@ -1,3 +1,23 @@
+/* --------program to check all field have been feild up */
+document.addEventListener("DOMContentLoaded", function () {
+    var name = document.getElementById("full_name");
+    var email = document.getElementById("email");
+    var message = document.getElementById("message");
+    var buttonSubmit = document.getElementById("submitBtn");
+
+    buttonSubmit.onclick = function (event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        if (name.value.trim() === "" || email.value.trim() === "" || message.value.trim() === "" ) {
+            alert("Please input a value for full name");
+        } else {
+            // Proceed with your form submission logic here
+            alert("Form submitted successfully");
+        }
+    };
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     var images = document.querySelectorAll('.image'); // Get all image elements
     var currentImageIndex = 0; // Index of the currently displayed image
