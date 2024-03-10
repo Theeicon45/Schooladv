@@ -82,7 +82,7 @@ nav ul li a:hover{
   align-items: center;
   flex-direction: column;
   height: 100%;
-  width: 100vw;
+  width: 50vw;
   background-color: none;
 }
 
@@ -91,6 +91,7 @@ nav ul li a:hover{
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: 0;
 }
 
@@ -98,6 +99,7 @@ nav ul li a:hover{
   font-size: 20px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: 10px 0 10px 10px;
 }
 
@@ -111,7 +113,7 @@ video{
 .btn{
   background-color:var(--slatyGray) ;
   border: none;
-  margin: 0px -20px 0px 50px;
+  margin: 0;
   border-radius: 30px;
    font-size: 18px;
   color: var(--footergray);
@@ -518,7 +520,6 @@ button:active {
   overflow: hidden;
   padding-bottom: 10px;
   background-color: var(--gray);
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -598,7 +599,7 @@ button:active {
   .body-container{
     width: 100%;
     margin-top: 0;
-    height: auto;
+    height: 30vh;
   }
 
   .text-one{
@@ -607,10 +608,15 @@ button:active {
   }
 
   .text-container{
-    margin-top: 30px;
+    margin: 0;
+    margin-top: 0px;
     padding: 0px;
     width: 100%;
-    
+    height: 25vh;
+    background-color: #0084ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .bar{
@@ -634,6 +640,7 @@ button:active {
   .image-container{
     right: 0;
     width: 100%;
+    background-size: cover;
   }
 
   footer{
