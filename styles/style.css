@@ -137,8 +137,8 @@ video{
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 5%;
-  width: 90%;
+  /* right: 5%; */
+  width: 100%;
   z-index: -1;
 }
 
