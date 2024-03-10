@@ -29,6 +29,25 @@ document.addEventListener("DOMContentLoaded", function() {
     // Start the slideshow
     setInterval(showNextImage, intervalTime + transitionTime);
 });
+var readMoreBtn = document.querySelector('.read-more-btn');
+    var fullMessage = document.querySelector('.full-message');
+    var picDiv = document.querySelector('.pic');
+
+    readMoreBtn.addEventListener('click', function() {
+        if (fullMessage.style.display === 'none' || fullMessage.style.display === '') {
+            fullMessage.style.display = 'block';
+            readMoreBtn.textContent = 'Show Less';
+            // Smoothly transition the alignment of the image
+            picDiv.style.transition = 'align-items 0.5s ease-in-out';
+            picDiv.style.alignItems = 'center';
+        } else {
+            fullMessage.style.display = 'none';
+            readMoreBtn.textContent = 'Read More';
+            // Smoothly transition the alignment of the image
+            picDiv.style.transition = 'align-items 0.5s ease-in-out';
+            picDiv.style.alignItems = 'flex-start';
+        }
+    });
 
 
 var button_one = document.getElementById("fa-ellipsis-vertical");
@@ -46,3 +65,4 @@ button_two.onclick= function(){
     button_one.style.visibility = "visible";
     button_two.style.visibility = "hidden";
 }
+
