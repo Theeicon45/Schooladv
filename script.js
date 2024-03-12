@@ -65,4 +65,3 @@ button_two.onclick= function(){
     button_one.style.visibility = "visible";
     button_two.style.visibility = "hidden";
 }
-
