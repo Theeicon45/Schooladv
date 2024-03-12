@@ -227,7 +227,18 @@
             }
             farm_pic.style.marginLeft = marginValue + "px";
         }
+    
+        // Auto-move every 2 seconds if no button is clicked
+        setInterval(function() {
+            marginValue -= imageWidth;
+            if (marginValue < -maxMarginValue) {
+                marginValue = 0; // Reset to 0 when it reaches the maximum
+            }
+            farm_pic.style.marginLeft = marginValue + "px";
+        }, 5000); // changed to 4000 ms for better synchronization with the movement
     </script>
+    
+    
     
 </body>
 </html>

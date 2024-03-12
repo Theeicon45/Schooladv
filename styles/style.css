@@ -619,8 +619,13 @@ button:active {
   margin-top: 150px;
   margin-left: 400px;
   height: 200px;
-  color: #19d819;
+  color: var(--slatyGray);
   cursor: pointer;
+}
+
+.fa-square-caret-right:hover{
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .fa-square-caret-left{
@@ -628,8 +633,13 @@ button:active {
   margin-top: 150px;
   margin-left: 20px;
   height: 200px;
-  color: #19d819;
+  color: var(--slatyGray);
   cursor: pointer;
+}
+
+.fa-square-caret-left:hover{
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 
