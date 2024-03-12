@@ -585,6 +585,37 @@ button:active {
 
 
 
+.Stories{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.farm-story{
+  display: flex;
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.farm-pic{
+  border: 3px solid #0084ff;
+}
+
+.story{
+  width: 50%;
+}
+
+.fa-square-caret-right{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 500PX;
+  height: 200px;
+  color: #19d819;
+  
+}
+
 
 
 
