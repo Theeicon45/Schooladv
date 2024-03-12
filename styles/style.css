@@ -590,6 +590,8 @@ button:active {
   display: flex;
   flex-direction: row;
   background-color: var(--gray);
+  justify-content: center;
+  align-items: center;
 }
 
 .farm-story{
