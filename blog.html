@@ -110,21 +110,24 @@
     <div class="Stories">
     
 
-        <!-- <div class="farm-story">
-            <img src="Images/pig.jpg" alt="pig picture" class="farm-pic">
+        <div class="farm-story">
+            <i class="fa-solid fa-square-caret-left" id="clickbtnLeft"></i>
+            <img src="Images/pig.jpg" alt="pig picture" class="farm-pic" id="farm-pic">
             <img src="Images/pig1.jpg" alt="pig picture" class="farm-pic">
             <img src="Images/cowshed.jpg" alt="" class="farm-pic">
             <img src="Images/farm.jpg" alt="" class="farm-pic">
             <img src="Images/farm2.jpg" alt="" class="farm-pic">
             <img src="Images/fishpond.jpg" alt="" class="farm-pic">
-            <i class="fa-solid fa-square-caret-right"></i>
-        </div> -->
+            <i class="fa-solid fa-square-caret-right" id="clickbtnRight"></i>
+        </div> 
         <div class="story">
         At our school, agriculture isn't just a subject—it's a living, breathing part of our educational ecosystem. Through our hands-on approach to learning, students delve into the world of agriculture, where they tend to our cows, pigs, and maize farm with care and dedication. These experiences go beyond textbooks, allowing students to witness the interconnectedness of nature firsthand. By nurturing animals and crops, students develop vital skills in responsibility, empathy, and environmental stewardship.
 
         Our agriculture program isn't just about what happens on the farm—it's about cultivating a community of learners who are passionate about making a difference. As students engage with the rhythms of nature, they gain a deeper appreciation for the food we eat and the world we inhabit. Through school agriculture, we sow the seeds of knowledge and compassion, nurturing not only future farmers but also future leaders committed to building a sustainable and equitable world for generations to come. Join us as we grow together, one harvest at a time.
     </div>
     </div>
+
+    
 
     <!------------------------------------FOOTER------------------------------------------> 
        
@@ -201,5 +204,30 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        let farm_pic = document.getElementById("farm-pic");
+        let buttonclickRight = document.getElementById("clickbtnRight");
+        let buttonclickLeft = document.getElementById("clickbtnLeft");
+        let marginValue = 0;
+        const maxMarginValue = 2275;
+        const imageWidth = 455;  // Adjust this based on the actual width of your images
+    
+        buttonclickRight.onclick = function(){
+            marginValue -= imageWidth;
+            if (marginValue < -maxMarginValue) {
+                marginValue = -maxMarginValue;
+            }
+            farm_pic.style.marginLeft = marginValue + "px";
+        }
+    
+        buttonclickLeft.onclick = function(){
+            marginValue += imageWidth;
+            if (marginValue > 0) {
+                marginValue = 0;
+            }
+            farm_pic.style.marginLeft = marginValue + "px";
+        }
+    </script>
+    
 </body>
 </html>

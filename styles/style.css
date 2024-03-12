@@ -589,33 +589,46 @@ button:active {
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: var(--gray);
 }
 
 .farm-story{
   display: flex;
-  width: 50%;
+  width: 450px;
   height: 300px;
   overflow: hidden;
 
 }
 
 .farm-pic{
-  border: 3px solid #0084ff;
+  width: 100%;
+  transition: 1s;
+  margin: 0;
+  margin-left: 5px;
 }
 
 .story{
-  width: 50%;
+  width: 60%;
+  margin: 0 0 0 20px;
 }
 
 .fa-square-caret-right{
   position: absolute;
   margin-top: 150px;
-  margin-left: 500PX;
+  margin-left: 400px;
   height: 200px;
   color: #19d819;
-  
+  cursor: pointer;
 }
 
+.fa-square-caret-left{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 20px;
+  height: 200px;
+  color: #19d819;
+  cursor: pointer;
+}
 
 
 
