@@ -576,6 +576,13 @@ button:active {
   border-radius: 0;
 }
 
+#news{
+  color: #0084ff;
+  margin-top: 200px;
+  background-color: #19d819;
+  visibility: hidden;
+}
+
 
 
 
