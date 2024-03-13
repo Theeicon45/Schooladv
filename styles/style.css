@@ -433,11 +433,12 @@ button:active {
 .exploret{
   display: flex;
   justify-content: space-between;
-  padding: 50px; 
-  
+  align-items: center;
+  margin: 10px;
 }
 .exploret img{
-  height: 400px;
+  width: 90vw;
+  height: auto;
   border-radius: 20px;
 
 }

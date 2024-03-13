@@ -81,12 +81,13 @@ nav ul li a:hover{
   }
   
   .containerImg{
-    height: 400px;
+    height: auto;
     width: 50%;
   }
 
   .containerImg img{
-    height: 380px;
+    width: 90vw;
+    height: auto;
     margin: 10px 0 10px 50px;
     border-radius: 20px;
   }
