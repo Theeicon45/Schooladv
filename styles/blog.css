@@ -179,3 +179,8 @@ nav ul li a:hover{
     align-items: center; 
   }
 }
+
+.Stories{
+  flex-direction: column;
+  width: 100%;
+}
