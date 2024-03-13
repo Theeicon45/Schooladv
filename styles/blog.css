@@ -166,4 +166,16 @@ nav ul li a:hover{
   }
   
   
+/* ----------------------------responsive---------------------------------- */
 
+@media (max-width: 450px) {
+  .bar{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: auto;
+    align-items: center; 
+  }
+}
