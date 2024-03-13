@@ -208,6 +208,16 @@ video{
   height: 400px; /* Adjust height as needed */
   border-radius: 8px;
 }
+.pict {
+  display: flex;
+  transition: align-items 0.5s ease-in-out;
+}
+
+.pict img {
+  height: 250px; /* Adjust height as needed */
+  border-radius: 8px;
+  margin-top: 20px;
+}
 
 .message {
   font-size: 20px;
@@ -235,7 +245,7 @@ video{
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  margin-top: 10px;
+  margin: 10px;
   width: 250px;
 }
 
@@ -414,6 +424,11 @@ button:active {
   padding: 50px 0 20px 0;
   height: auto;
 }
+.mission{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 .exploret{
   display: flex;
   justify-content: space-between;
@@ -537,9 +552,7 @@ button:active {
 }
 
 /*----------------------------------------------- .Stories----------------------------------------------------- */
-  p{
-  font-weight: 600px  ;
- }
+ 
 
 
 /* ---------------------------responsive-------------------------------------- */
@@ -696,6 +709,11 @@ button:active {
 
   .about-container-one img{
     width: 95%;
+  }
+  .mission{
+    background-color: black;
+    color: white;
+    text-align: center;
   }
 
   .history{
