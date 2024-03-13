@@ -210,7 +210,7 @@ video{
 }
 .pict {
   display: flex;
-  transition: align-items 0.5s ease-in-out;
+  /* transition: align-items 0.5s ease-in-out; */
 }
 
 .pict img {

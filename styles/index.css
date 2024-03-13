@@ -8,4 +8,33 @@
       height: auto;
       align-items: center; 
     }
+
+    .pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic img{
+        margin: 0;
+        border-radius: 0;
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .message{
+        display: flex;
+        align-items: center;
+    }
+
+    
+  .intro{
+    text-align: center;
+    padding: 2px;
+  }
+
+  .full-message{
+    text-align: center;
+    padding: 5px;
+  }
 }
