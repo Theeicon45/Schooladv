@@ -516,7 +516,7 @@ button:active {
   width: 250px;
   height: 300px;
   overflow: hidden;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
   padding-bottom: 10px;
   background-color: var(--gray);
   display: flex;
@@ -541,7 +541,7 @@ button:active {
   z-index: 2;
   transition: 2s;
   overflow-y: visible;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 #news{
@@ -704,6 +704,7 @@ button:active {
 
   .about-container-one img{
     width: 95%;
+    height: auto;
   }
   .mission{
     background-color: black;
@@ -800,6 +801,7 @@ button:active {
   }
 
   .card-element{
-    width: 40vw;
+    width: 85%;
+    height: 500px;
   }
 }

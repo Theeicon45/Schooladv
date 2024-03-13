@@ -24,7 +24,7 @@
         position: relative; /* Add relative positioning */
         width: 100%;
         max-width: 50%; /* Limiting the width for big devices */
-        height: auto;
+        height: 550px;
         margin: 0 auto;
         overflow: hidden;
       }
@@ -47,11 +47,19 @@
     
       .slide-button {
         position: absolute; /* Add absolute positioning */
-        top: 450px; /* Adjust bottom spacing */
+        top: 88%; /* Adjust bottom spacing */
         left: 50%; /* Move to the center horizontally */
         transform: translateX(-50%); /* Center horizontally */
         text-align: center;
+        display: flex;
+        width: 200px;
+        align-items: center;
+        justify-content: space-around;
         z-index: 10; /* Ensure buttons appear above images */
+      }
+
+      .mybtn{
+        margin: 0 10px 0 0;
       }
     
       /* Responsive styles for smaller devices */
@@ -221,15 +229,17 @@
   <!-- Add Navigation -->
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-</div>
-
-<!-- Add Pagination -->
+  <div class="slide-button">
+    <button onclick="slideToPrev()" class="mybtn">Prev</button>
+    <button onclick="slideToNext()" class="mybtn">Next</button>
+  </div>
+  <!-- Add Pagination -->
 <div class="swiper-pagination"></div>
-
-<div class="slide-button">
-  <button onclick="slideToPrev()">Prev</button>
-  <button onclick="slideToNext()">Next</button>
 </div>
+
+
+
+
 
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
