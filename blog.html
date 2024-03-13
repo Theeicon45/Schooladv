@@ -17,6 +17,55 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <style>
+      .swiper-container {
+        position: relative; /* Add relative positioning */
+        width: 100%;
+        max-width: 50%; /* Limiting the width for big devices */
+        height: auto;
+        background-color: aqua;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+    
+      .swiper-slide {
+        position: relative; /* Add relative positioning */
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .swiper-slide img {
+        width: 50%; /* Fixed width */
+        height: auto; /* Fixed height */
+        object-fit: cover; /* Maintain aspect ratio */
+      }
+    
+      .slide-button {
+        position: absolute; /* Add absolute positioning */
+        top: 450px; /* Adjust bottom spacing */
+        left: 50%; /* Move to the center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        text-align: center;
+        z-index: 10; /* Ensure buttons appear above images */
+      }
+    
+      /* Responsive styles for smaller devices */
+      @media screen and (max-width: 450px) {
+        .swiper-container {
+          max-width: 100%; /* Full width on small devices */
+        }
+        
+        .swiper-slide img {
+          width: 100%; /* Take full width of the container */
+          height: auto; /* Auto height */
+        }
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -137,7 +186,7 @@
       </div>
     </div>
     <div class="Stories">
-      <div class="farm-story">
+      <!-- <div class="farm-story">
         <i class="fa-solid fa-square-caret-left" id="clickbtnLeft"></i>
         <img
           src="Images/pig.jpg"
@@ -151,7 +200,90 @@
         <img src="Images/farm2.jpg" alt="" class="farm-pic" />
         <img src="Images/fishpond.jpg" alt="" class="farm-pic" />
         <i class="fa-solid fa-square-caret-right" id="clickbtnRight"></i>
-      </div>
+      </div> -->
+
+
+
+
+
+
+<!-- just testing swipjs -->
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="Images/pig.jpg" alt="Image 1"></div>
+    <div class="swiper-slide"><img src="Images/cowshed.jpg" alt="Image 2"></div>
+    <div class="swiper-slide"><img src="Images/fishpond.jpg" alt="Image 3"></div>
+  </div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Add Pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="slide-button">
+  <button onclick="slideToPrev()">Prev</button>
+  <button onclick="slideToNext()">Next</button>
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  // Initialize Swiper
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+  });
+
+  function slideToPrev() {
+    swiper.slidePrev();
+  }
+
+  function slideToNext() {
+    swiper.slideNext();
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- just testing swipjs -->
+
+
+
       <div class="story">
         <p>
           At our school, agriculture isn't just a subject—it's a living,
