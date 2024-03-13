@@ -768,7 +768,7 @@ button:active {
   /* ----------------------------blog------------------------------------ */
 
   .about-body-content{
-    height: auto;
+    height: 180px;
   }
 
   .about-body-content img{
