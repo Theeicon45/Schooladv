@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+/* document.addEventListener("DOMContentLoaded", function() {
   var submitBtn = document.getElementById('submitBtn');
 
   submitBtn.addEventListener('click', function(event) {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         submitBtn.disabled = false; // Enable the button
     }, 2000);
   });
-});
+}); */
 
 
   window.addEventListener('DOMContentLoaded', function () {
