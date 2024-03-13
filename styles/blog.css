@@ -178,9 +178,41 @@ nav ul li a:hover{
     height: auto;
     align-items: center; 
   }
-}
-
+  
 .Stories{
   flex-direction: column;
   width: 100%;
+}
+
+
+  .farm-story{
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .farm-story img{
+    border-radius: 20px;
+    
+  }
+
+  
+  .farm-pic{
+    width: 100%;
+    transition: 1s;
+    margin: 0;
+    margin-left: 0;
+    
+  }
+
+  #clickbtnRight{
+    right: 5px;
+  }
+
+  .story{
+    margin: 0;
+    
+    width: 90%;
+  }
 }
