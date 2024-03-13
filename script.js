@@ -55,9 +55,9 @@ var readMoreBtn = document.querySelector('.read-more-btn');
     
 
 
-var button_one = document.getElementById("fa-ellipsis-vertical");
-var button_two = document.getElementById("fa-ellipsis");
-var nav_list = document.getElementById("nav_list");
+let button_one = document.getElementById("fa-ellipsis-vertical");
+let button_two = document.getElementById("fa-ellipsis");
+let nav_list = document.getElementById("nav_list");
 
 button_one.onclick= function(){
     nav_list.style.paddingLeft = "100%";
