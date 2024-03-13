@@ -214,7 +214,8 @@ video{
 }
 
 .pict img {
-  height: 250px; /* Adjust height as needed */
+  width: 90vw;
+  height: auto; /* Adjust height as needed */
   border-radius: 8px;
   margin-top: 20px;
 }
