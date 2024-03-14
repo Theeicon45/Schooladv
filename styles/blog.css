@@ -106,10 +106,7 @@ nav ul li a:hover{
   }
 
   .textLogo{
-    position: relative;
-    float: right;
-    left: -425px;
-    top: 10px;
+
   }
 
   .Stories{
@@ -165,6 +162,10 @@ nav ul li a:hover{
     color: var(--slatyGray);
     cursor: pointer;
   }
+
+.container-one-text{
+  text-align: center;
+}
   
   
 /* ----------------------------responsive---------------------------------- */
@@ -215,14 +216,6 @@ nav ul li a:hover{
     margin: 0;
     
     width: 90%;
-  }
-
-  .pict{
-    width: 90vw;
-  }
-
-  .pict img{
-    width: 90vw;
   }
 
 }
