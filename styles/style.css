@@ -809,4 +809,23 @@ button:active {
     width: 85%;
     height: 500px;
   }
+
+
+
+
+
+
+  .bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pict{
+    width: 100vw;
+  }
+
+  .message{
+    width: 100vw;
+  }
 }
