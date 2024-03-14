@@ -435,12 +435,12 @@ button:active {
 }
 .exploret{
   display: flex;
-  justify-content: space-between;
+justify-content: center;
   align-items: center;
   margin: 10px;
 }
 .exploret img{
-  width: 90vw;
+  width: 50vw;
   height: auto;
   border-radius: 20px;
 
@@ -728,6 +728,7 @@ button:active {
   }
 
   .exploret img{
+    width: 90vw;
     height: auto;
   }
 
