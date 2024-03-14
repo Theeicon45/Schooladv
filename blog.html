@@ -17,11 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-    <style>
-      
-    </style>
+    <style></style>
   </head>
   <body>
     <nav>
@@ -77,10 +78,19 @@
         </div>
 
         <div class="card-element">
-          <img src="Images/explore.jpg" alt="image" />
-          <h3>Achieving Academic Success</h3>
-          Tips for excelling in studies and staying organized Teachers name
-          Teacher
+          <img src="Images/Field6s.jpg" alt="image" />
+          <h3>Unlocking Academic Potential Through Play</h3>
+          Play is more than just a way for children to pass the time—it's a
+          crucial aspect of their development. Through play, children learn
+          valuable social, cognitive, and emotional skills that lay the
+          foundation for future success. Whether it's engaging in imaginative
+          play, exploring the outdoors, or participating in organized sports,
+          playing allows children to develop creativity, problem-solving
+          abilities, and resilience. Moreover, play promotes physical health and
+          well-being, fostering strong muscles, coordination, and a healthy
+          lifestyle. At St Bakhita Equator, we recognize the immense benefits of
+          play and encourage children to explore, experiment, and have fun as
+          they learn and grow.
         </div>
 
         <div class="card-element">
@@ -129,7 +139,7 @@
           readiness, our experienced team is here to empower your child to
           thrive both inside and outside the classroom.
         </p>
-            <br>
+        <br />
         <p class="full-message">
           By choosing St Bakhita Equator, you're not just enrolling your child
           in a school – you're joining a supportive community dedicated to their
@@ -158,72 +168,71 @@
         <i class="fa-solid fa-square-caret-right" id="clickbtnRight"></i>
       </div> -->
 
+      <!-- just testing swipjs -->
 
-
-
-
-
-<!-- just testing swipjs -->
-
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="Images/pig.jpg" alt="Image 1"></div>
-    <div class="swiper-slide"><img src="Images/pig1.jpg" alt="Image 2"></div>
-    <div class="swiper-slide"><img src="Images/cowshed.jpg" alt="Image 3"></div>
-    <div class="swiper-slide"><img src="Images/farm.jpg" alt="Image 1"></div>
-    <div class="swiper-slide"><img src="Images/farm2.jpg" alt="Image 2"></div>
-    <div class="swiper-slide"><img src="Images/fishpond.jpg" alt="Image 3"></div>
-  </div>
-  <!-- Add Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <!-- <div class="slide-button">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="Images/pig.jpg" alt="Image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/pig1.jpg" alt="Image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/cowshed.jpg" alt="Image 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/farm.jpg" alt="Image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/farm2.jpg" alt="Image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/fishpond.jpg" alt="Image 3" />
+          </div>
+        </div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- <div class="slide-button">
     <button onclick="slideToPrev()" class="mybtn">Prev</button>
     <button onclick="slideToNext()" class="mybtn">Next</button>
   </div> -->
-  <!-- Add Pagination -->
-<div class="swiper-pagination"></div>
-</div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
 
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        // Initialize Swiper
+        var swiper = new Swiper(".swiper-container", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+        });
 
+        function slideToPrev() {
+          swiper.slidePrev();
+        }
 
+        function slideToNext() {
+          swiper.slideNext();
+        }
+      </script>
 
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  // Initialize Swiper
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-  });
-
-  function slideToPrev() {
-    swiper.slidePrev();
-  }
-
-  function slideToNext() {
-    swiper.slideNext();
-  }
-</script>
-
-
-<!--swipjs -->
-
-
+      <!--swipjs -->
 
       <div class="story">
         <p>
@@ -236,7 +245,7 @@
           animals and crops, students develop vital skills in responsibility,
           empathy, and environmental stewardship.
         </p>
-        <br>
+        <br />
         <p>
           Our agriculture program isn't just about what happens on the farm—it's
           about cultivating a community of learners who are passionate about
@@ -268,88 +277,95 @@
         <i class="fa-solid fa-square-caret-right" id="clickbtnRight"></i>
       </div> -->
 
+      <!-- just testing swipjs -->
 
+      <div class="story">
+        <p>
+          At St Bakhita Equator, the safety and well-being of our students are
+          our top priorities, and our school transportation system reflects this
+          commitment. Equipped with modern amenities and operated by experienced
+          and licensed drivers, our fleet of school buses provides a safe and
+          secure mode of transportation for students to and from school. With
+          regular maintenance checks and adherence to strict safety protocols,
+          parents can have peace of mind knowing that their children are in good
+          hands during their daily commute.
+        </p>
 
+        <br />
+        <p>
+          In addition to safety, we also prioritize convenience in our school
+          transportation system. With designated bus stops located conveniently
+          throughout the community and efficient routing, we strive to minimize
+          travel time and ensure that students arrive at school promptly and
+          ready to learn. Our friendly and professional bus drivers create a
+          welcoming atmosphere on board, making the journey to school an
+          enjoyable and stress-free experience for students of all ages.
+        </p>
+      </div>
 
-
-
-<!-- just testing swipjs -->
-
-<div class="story">
-  <p>
-    At [School Name], the safety and well-being of our students are our top priorities, and our school transportation system reflects this commitment. Equipped with modern amenities and operated by experienced and licensed drivers, our fleet of school buses provides a safe and secure mode of transportation for students to and from school. With regular maintenance checks and adherence to strict safety protocols, parents can have peace of mind knowing that their children are in good hands during their daily commute.
-  </p>
-
-  
-
-
-  <br>
-  <p>
-    In addition to safety, we also prioritize convenience in our school transportation system. With designated bus stops located conveniently throughout the community and efficient routing, we strive to minimize travel time and ensure that students arrive at school promptly and ready to learn. Our friendly and professional bus drivers create a welcoming atmosphere on board, making the journey to school an enjoyable and stress-free experience for students of all ages.
-  </p>
-</div>
-
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="Images/school-bus.jpg" alt="Image 1"></div>
-    <div class="swiper-slide"><img src="Images/school-bus2.jpg" alt="Image 2"></div>
-    <div class="swiper-slide"><img src="Images/school-bus3.jpg" alt="Image 3"></div>
-    <div class="swiper-slide"><img src="Images/school-bus4.jpg" alt="Image 1"></div>
-    <div class="swiper-slide"><img src="Images/school-bus5.jpg" alt="Image 2"></div>
-    <div class="swiper-slide"><img src="Images/school-mat.jpg" alt="Image 3"></div>
-  </div>
-  <!-- Add Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <!-- <div class="slide-button">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="Images/school-bus.jpg" alt="Image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/school-bus2.jpg" alt="Image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/school-bus3.jpg" alt="Image 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/school-bus4.jpg" alt="Image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/school-bus5.jpg" alt="Image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Images/school-mat.jpg" alt="Image 3" />
+          </div>
+        </div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- <div class="slide-button">
     <button onclick="slideToPrev()" class="mybtn">Prev</button>
     <button onclick="slideToNext()" class="mybtn">Next</button>
   </div> -->
-  <!-- Add Pagination -->
-<div class="swiper-pagination"></div>
-</div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
 
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        // Initialize Swiper
+        var swiper = new Swiper(".swiper-container", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+        });
 
+        function slideToPrev() {
+          swiper.slidePrev();
+        }
 
+        function slideToNext() {
+          swiper.slideNext();
+        }
+      </script>
 
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  // Initialize Swiper
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-  });
-
-  function slideToPrev() {
-    swiper.slidePrev();
-  }
-
-  function slideToNext() {
-    swiper.slideNext();
-  }
-</script>
-
-
-<!--swipjs -->
-
-
-
-      
+      <!--swipjs -->
     </div>
 
     <!------------------------------------FOOTER------------------------------------------>
