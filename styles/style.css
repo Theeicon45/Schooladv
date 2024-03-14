@@ -819,13 +819,14 @@ button:active {
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
   }
 
   .pict{
-    width: 100vw;
+    width: 95vw;
   }
 
   .message{
-    width: 100vw;
+    width: 95vw;
   }
 }
