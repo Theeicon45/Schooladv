@@ -190,14 +190,35 @@ video{
 /*---------------------------------------bar--------------------------------------*/
 .bar {
   background-color: var(--slatyGray);
-  font-family: var(--font);
+  display: flex;
+
+}
+
+.pict{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pict img{
   width: 100%;
   height: auto;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  gap: 30px;
+  border-radius: 30px;
 }
+
+
+.message {
+  width: 48%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+}
+
 
 .pic {
   display: flex;
@@ -208,26 +229,8 @@ video{
   height: 400px; /* Adjust height as needed */
   border-radius: 8px;
 }
-.pict {
-  display: flex;
-  /* transition: align-items 0.5s ease-in-out; */
-}
 
-.pict img {
-  width: 90vw;
-  height: auto; /* Adjust height as needed */
-  border-radius: 8px;
-  margin-top: 20px;
-}
 
-.message {
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  flex-direction: column;
-  color: #fff;
-}
 
 .mes {
   font-size: 35px;

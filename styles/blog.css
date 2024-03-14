@@ -76,6 +76,7 @@ nav ul li a:hover{
     padding: 20px 0 20px 0;
     height: auto;
     display: flex;
+    flex-direction: column;
     background-color: var(--lightGray);
   }
   
