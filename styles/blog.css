@@ -217,4 +217,12 @@ nav ul li a:hover{
     width: 90%;
   }
 
+  .pict{
+    width: 90vw;
+  }
+
+  .pict img{
+    width: 90vw;
+  }
+
 }
