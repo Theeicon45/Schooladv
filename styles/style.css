@@ -421,6 +421,7 @@ button:active {
   background-color: white;
   text-align: center;
   color: black;
+  font-weight: 200px;
 
 }
 
@@ -432,6 +433,7 @@ button:active {
   background-color: black;
   color: white;
   text-align: center;
+  font-weight: 200 !important;
 }
 .exploret{
   display: flex;
@@ -439,6 +441,7 @@ justify-content: center;
   align-items: center;
   margin: 10px;
 }
+
 .exploret img{
   width: 50vw;
   height: auto;
