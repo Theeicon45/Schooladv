@@ -251,6 +251,107 @@
       </div>
     </div>
 
+    <div class="Stories">
+      <!-- <div class="farm-story">
+        <i class="fa-solid fa-square-caret-left" id="clickbtnLeft"></i>
+        <img
+          src="Images/pig.jpg"
+          alt="pig picture"
+          class="farm-pic"
+          id="farm-pic"
+        />
+        <img src="Images/pig1.jpg" alt="pig picture" class="farm-pic" />
+        <img src="Images/cowshed.jpg" alt="" class="farm-pic" />
+        <img src="Images/farm.jpg" alt="" class="farm-pic" />
+        <img src="Images/farm2.jpg" alt="" class="farm-pic" />
+        <img src="Images/fishpond.jpg" alt="" class="farm-pic" />
+        <i class="fa-solid fa-square-caret-right" id="clickbtnRight"></i>
+      </div> -->
+
+
+
+
+
+
+<!-- just testing swipjs -->
+
+<div class="story">
+  <p>
+    At [School Name], the safety and well-being of our students are our top priorities, and our school transportation system reflects this commitment. Equipped with modern amenities and operated by experienced and licensed drivers, our fleet of school buses provides a safe and secure mode of transportation for students to and from school. With regular maintenance checks and adherence to strict safety protocols, parents can have peace of mind knowing that their children are in good hands during their daily commute.
+  </p>
+
+  
+
+
+  <br>
+  <p>
+    In addition to safety, we also prioritize convenience in our school transportation system. With designated bus stops located conveniently throughout the community and efficient routing, we strive to minimize travel time and ensure that students arrive at school promptly and ready to learn. Our friendly and professional bus drivers create a welcoming atmosphere on board, making the journey to school an enjoyable and stress-free experience for students of all ages.
+  </p>
+</div>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="Images/school-bus.jpg" alt="Image 1"></div>
+    <div class="swiper-slide"><img src="Images/school-bus2.jpg" alt="Image 2"></div>
+    <div class="swiper-slide"><img src="Images/school-bus3.jpg" alt="Image 3"></div>
+    <div class="swiper-slide"><img src="Images/school-bus4.jpg" alt="Image 1"></div>
+    <div class="swiper-slide"><img src="Images/school-bus5.jpg" alt="Image 2"></div>
+    <div class="swiper-slide"><img src="Images/school-mat.jpg" alt="Image 3"></div>
+  </div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- <div class="slide-button">
+    <button onclick="slideToPrev()" class="mybtn">Prev</button>
+    <button onclick="slideToNext()" class="mybtn">Next</button>
+  </div> -->
+  <!-- Add Pagination -->
+<div class="swiper-pagination"></div>
+</div>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  // Initialize Swiper
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+  });
+
+  function slideToPrev() {
+    swiper.slidePrev();
+  }
+
+  function slideToNext() {
+    swiper.slideNext();
+  }
+</script>
+
+
+<!--swipjs -->
+
+
+
+      
+    </div>
+
     <!------------------------------------FOOTER------------------------------------------>
 
     <footer>
