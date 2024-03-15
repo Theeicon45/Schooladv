@@ -189,6 +189,7 @@ video{
 }
 /*---------------------------------------bar--------------------------------------*/
 .bar {
+  padding-top: 20px;
   background-color: var(--slatyGray);
   display: flex;
 
