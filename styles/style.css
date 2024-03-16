@@ -268,10 +268,11 @@ footer{
   bottom: 0;
   background-color: var(--footergray);
   font-family: var(--font);
-  height: 250px;
+  height: auto;
   margin: 0;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .schl{
@@ -565,6 +566,8 @@ justify-content: center;
 
 
 /* ---------------------------responsive-------------------------------------- */
+
+
 
 @media (max-width: 450px) {
 
