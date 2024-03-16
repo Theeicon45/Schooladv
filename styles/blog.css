@@ -222,6 +222,16 @@ nav ul li a:hover{
   
   
 /* ----------------------------responsive---------------------------------- */
+@media (max-width: 1024px) {
+  .StoriesOne{
+    align-items: center;
+  }
+
+  .about-body-content {
+    height: 450px;
+    padding-top: 100px;
+  }
+}
 
 @media (max-width: 450px) {
   
