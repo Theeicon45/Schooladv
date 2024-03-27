@@ -332,6 +332,31 @@ color: black;
   margin-top: 10px;
 }
 
+.dev{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--slatyGray);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: gold;
+}
+
+.dev img{
+  width: 50px;
+  border-radius: 50%;
+  
+  margin: 10px;
+  transition: 1s ease;
+}
+
+.dev img:hover{
+  transform: scale(1.1);
+  transition:  1s ease;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px var(--black);
+}
+
 /*--------------------contact page---------------------------------*/
 .body-container-contact{
   padding-top: 100px;
