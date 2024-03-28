@@ -195,7 +195,15 @@ video{
 
 }
 
+.barOne {
+  padding-top: 20px;
+  background-color: var(--gray);
+  display: flex;
+
+}
+
 .pict{
+  margin-left: 20px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -222,6 +230,7 @@ video{
 
 
 .pic {
+  margin-left: 20px;
   display: flex;
   transition: align-items 0.5s ease-in-out;
 }
@@ -882,6 +891,7 @@ justify-content: center;
   }
 
   .pict{
+    margin-left: 0;
     width: 95vw;
   }
 
