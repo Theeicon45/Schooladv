@@ -29,28 +29,42 @@ document.addEventListener("DOMContentLoaded", function() {
     // Start the slideshow
     setInterval(showNextImage, intervalTime + transitionTime);
 });
-var readMoreBtn = document.querySelector('.read-more-btn');
-    var fullMessage = document.querySelector('.full-message');
-    var picDiv = document.querySelector('.pic');
-   
-    
 
-    readMoreBtn.addEventListener('click', function() {
-        if (fullMessage.style.display === 'none' || fullMessage.style.display === '') {
-            fullMessage.style.display = 'block';
-            readMoreBtn.textContent = 'Show Less';
+    
+    
+// Function to handle the click event for toggling message visibility and image transformation
+function toggleMessageAndImage(btn, fullMsg, picDiv) {
+    btn.addEventListener('click', function() {
+        if (fullMsg.style.display === 'none' || fullMsg.style.display === '') {
+            fullMsg.style.display = 'block';
+            btn.textContent = 'Show less';
             // Smoothly transition the alignment of the image
             picDiv.style.transition = 'align-items 0.5s ease-in-out';
             picDiv.style.alignItems = 'center';
         } else {
-            fullMessage.style.display = 'none';
-            readMoreBtn.textContent = 'Read More';
+            fullMsg.style.display = 'none';
+            btn.textContent = 'Read More';
             // Smoothly transition the alignment of the image
             picDiv.style.transition = 'align-items 0.5s ease-in-out';
             picDiv.style.alignItems = 'flex-start';
         }
     });
-    
+}
+
+// Selecting the "Read more" buttons and the corresponding message elements
+var readMoreBtn1 = document.querySelector('.read-more-btn');
+var readMoreBtn2 = document.querySelector('.read-more-btn1');
+var fullMessage1 = document.querySelector('.bar .full-message');
+var fullMessage2 = document.querySelector('.barOne .full-message');
+var picDiv1 = document.querySelector('.bar .pic');
+var picDiv2 = document.querySelector('.barOne .pic');
+
+// Toggle functionality for the first "Read more" button and its corresponding image
+toggleMessageAndImage(readMoreBtn1, fullMessage1, picDiv1);
+
+// Toggle functionality for the second "Read more" button and its corresponding image
+toggleMessageAndImage(readMoreBtn2, fullMessage2, picDiv2);
+
 
     
 

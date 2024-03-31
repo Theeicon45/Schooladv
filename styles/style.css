@@ -270,6 +270,19 @@ video{
 .full-message {
   display: none; /* Initially hide the full message */
 }
+.read-more-btn1 {
+  background-color: #258beb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  width: 250px;
+}
+
+.read-more-btn1:hover {
+  background-color: #0056b3;
+}
 
 
 /*--------------------------------FOOTER---------------------------------------*/
