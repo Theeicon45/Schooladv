@@ -23,6 +23,53 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      
+  .dropdown{
+    float: right;
+    overflow: hidden;
+    width: 200px;
+  }
+
+  .dropdown .dropbtn {
+    border: none;
+    /* font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; */
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+    </style>
   </head>
   <body>
     <nav>
@@ -34,6 +81,20 @@
       <ul id="nav_list">
         <li><a href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
+        
+        <div class="dropdown">
+          <button class="dropbtn">
+            Social
+          </button>
+          <div class="dropdown-content">
+            <a href="https://www.facebook.com/people/St-Bakhita-Equator-School-Day-Boarding-Nanyuki/100064213052322/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"> Facebook</i>
+            </a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+          </div>
+        </div>
+
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
